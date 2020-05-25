@@ -1,0 +1,32 @@
+{
+    "name": "parsidev/zibal",
+    "description": "Laravel 6 & 7 Payment Gateway Integration Package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Reza Parsaeian",
+            "email": "programmer.net2009@live.com"
+        }
+    ],
+    "require": {
+        "php": "~7.0",
+        "illuminate/support": "~5.5 | ~6.0 | ~7.0",
+        "guzzlehttp/guzzle": "~6.0|~7.0",
+    },
+    "autoload": {
+        "psr-0": {
+            "Parsidev\\Zibal": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Parsidev\\Zibal\\ZibalServiceProvider"
+            ],
+            "aliases": {
+                "Zibal": "Parsidev\\Zibal\\Facades"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
