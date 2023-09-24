@@ -12,7 +12,7 @@
         "php": "^8.0"
     },
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "Parsidev\\Zibal": "src/"
         }
     },
